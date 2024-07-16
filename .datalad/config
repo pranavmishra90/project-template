@@ -1,0 +1,8 @@
+[datalad "dataset"]
+	id = f9026e7b-8c71-4092-ba3a-72408294523c
+
+[datalad "ui"]
+        suppress-similar-results = off
+
+[push]
+        autoSetupRemote = true
