@@ -60,6 +60,8 @@ format:
         tbl-cap-location: bottom
         embed-resources: false
 
+pdf-engine: lualatex
+
 execute:
     freeze: auto
     cache: true
