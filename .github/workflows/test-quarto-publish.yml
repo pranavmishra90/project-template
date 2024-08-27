@@ -30,7 +30,7 @@ jobs:
           # version: SPECIFIC-QUARTO-VERSION-HERE
 
 
-
+				# Remember, you have to first run `quarto publish gh-pages` locally 1 time to initilize this branch
       - name: Publish to GitHub Pages (and render) 
         uses: quarto-dev/quarto-actions/publish@v2
         with:
