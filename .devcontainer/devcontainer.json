@@ -9,6 +9,9 @@
     "updateRemoteUserUID": true,
     "forwardPorts": [3334],
     "postCreateCommand": ["/bin/bash"],
+    "containerEnv": {
+        "ENV_NAME": "base"
+    },
 
     // If you need GPUs to be passed into the devcontainer, uncomment the following line
     // "runArgs": ["--gpus", "0"],

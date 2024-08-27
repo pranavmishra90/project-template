@@ -5,6 +5,11 @@ repos:
       # Lint files
       - id: check-yaml
       - id: check-json
+        exclude: |
+            (?x)^(
+                .devcontainer/devcontainer.json|
+                exclude.this.file
+            )$
       - id: mixed-line-ending
         args: ["--fix=lf"]
       # Prevent adding private keys in files
