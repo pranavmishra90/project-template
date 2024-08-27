@@ -4,7 +4,7 @@
     "href": "notebook/about.html",
     "title": "About",
     "section": "",
-    "text": "Code\nfrom datetime import datetime\n\nnow = datetime.now()\nformatted_date = now.strftime(\"%m-%d-%Y at %I:%M %p\")\nprint(f\"This file was last updated on {formatted_date}\")\n\n\nThis file was last updated on 08-27-2024 at 01:55 AM",
+    "text": "Code\nfrom datetime import datetime\n\nnow = datetime.now()\nformatted_date = now.strftime(\"%m-%d-%Y at %I:%M %p\")\nprint(f\"This file was last updated on {formatted_date}\")\n\n\nThis file was last updated on 08-27-2024 at 02:11 AM",
     "crumbs": [
       "Home",
       "Notebook",
@@ -74,8 +74,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "FacsimiLab - Project Template for Datalad Datasets",
+    "title": "[FacsimiLab] Project Template for Reproducible Research",
     "section": "",
-    "text": "Code\nwith open(\"readme.md\", \"r\") as file:\n    markdown_content = file.read()"
+    "text": "This is a datalad repository for the FacsimiLab project. Additional dataset information to go here.\n\n\n\nDefault copyright\nAll research data in this repository, unless explicitly stated otherwise, is protected by copyright and does not include permissions for use or sharing from the author(s). This includes raw data, analysis / intermediate data, and research output data. Code, select source files, and specific research output may have other licenses. For more information, please consult the Licenses section.\nCopyright © 2024 Pranav Kumar Mishra\n\n This page was generated automatically from the repository readme.md on 2024-08-27 02:11:12.231479"
+  },
+  {
+    "objectID": "index.html#project-details",
+    "href": "index.html#project-details",
+    "title": "[FacsimiLab] Project Template for Reproducible Research",
+    "section": "",
+    "text": "This is a datalad repository for the FacsimiLab project. Additional dataset information to go here."
+  },
+  {
+    "objectID": "index.html#licensing",
+    "href": "index.html#licensing",
+    "title": "[FacsimiLab] Project Template for Reproducible Research",
+    "section": "",
+    "text": "Default copyright\nAll research data in this repository, unless explicitly stated otherwise, is protected by copyright and does not include permissions for use or sharing from the author(s). This includes raw data, analysis / intermediate data, and research output data. Code, select source files, and specific research output may have other licenses. For more information, please consult the Licenses section.\nCopyright © 2024 Pranav Kumar Mishra\n\n This page was generated automatically from the repository readme.md on 2024-08-27 02:11:12.231479"
   }
 ]
