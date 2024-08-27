@@ -14,6 +14,9 @@ listing:
 
 The repository code, unless otherwise specified, is licensed under the [MIT License](./MIT-license.md).
 
+
+Note: This repository was generated using the [FacsimiLab project template repository](https://github.com/FacsimiLab/project-template) created by [Pranav Mishra](https://drpranavmishra.com), which is licensed under the [MIT License](./FacsimiLab-Project-Template-Repository.md).
+
 ## Repository Media
 
 <img alt="media_CCBY4" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpranavmishra90%2Fbadges%2Fmain%2Fone-sided-badge/media_CCBY4.json&color=3e4c75">
@@ -28,9 +31,10 @@ This repository uses code and/or files from other sources. You can find the lice
 
 All other works in this repository are copyrighted without explicit useage / sharing permissions from the authors.
 
-### Copyright © 2024 Pranav Kumar Mishra (Rush University, Chicago, IL, USA)
+### Copyright © 2024 Pranav Kumar Mishra
 
 ---
+
 
 ## List of Licenses {#sec-licenses-list}
 
