@@ -26,7 +26,7 @@ jobs:
         name: Install python packages
         with:
           python-version: '3.11'
-      - run: pip install jupyter
+      - run: pip install jupyter jupyter-cache
         
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
