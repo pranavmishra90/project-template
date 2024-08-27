@@ -5,7 +5,7 @@
 This is a datalad repository for the **FacsimiLab** project. Additional dataset information to go here.
 
 
-# Licensing
+## Licensing
 
 **Default copyright**
 
