@@ -21,7 +21,8 @@ permissions:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    
+    if: ${{github.repository_owner}} != 'FacsimiLab' && ${{github.repository}} != 'Facsimilab/protocol-template'
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
