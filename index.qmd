@@ -1,0 +1,7 @@
+<!-- Automatically render the readme as the index page -->
+
+```{python}
+with open("readme.md", "r") as file:
+    markdown_content = file.read()
+
+```

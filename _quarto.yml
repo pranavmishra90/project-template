@@ -5,6 +5,7 @@ project:
         - "*.qmd"
         - "*.md"
         - "docs/"
+        - "!readme.md"
 
         # Do not render
         - "!code/"
@@ -20,7 +21,7 @@ website:
         search: true
         left:
             - text: Home
-              href: readme.md
+              href: index.qmd
             - text: About
               href: notebook/about.qmd
     open-graph: true
