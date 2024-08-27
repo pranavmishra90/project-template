@@ -4,33 +4,11 @@
     "href": "notebook/about.html",
     "title": "About",
     "section": "",
-    "text": "Code\nfrom datetime import datetime\n\nnow = datetime.now()\nformatted_date = now.strftime(\"%m-%d-%Y at %I:%M %p\")\nprint(f\"This file was last updated on {formatted_date}\")\n\n\nThis file was last updated on 08-27-2024 at 01:42 AM",
+    "text": "Code\nfrom datetime import datetime\n\nnow = datetime.now()\nformatted_date = now.strftime(\"%m-%d-%Y at %I:%M %p\")\nprint(f\"This file was last updated on {formatted_date}\")\n\n\nThis file was last updated on 08-27-2024 at 01:55 AM",
     "crumbs": [
       "Home",
       "Notebook",
       "About"
-    ]
-  },
-  {
-    "objectID": "readme.html",
-    "href": "readme.html",
-    "title": "[FacsimiLab] Project Template for Reproducible Research",
-    "section": "",
-    "text": "This is a datalad repository for the FacsimiLab project. Additional dataset information to go here.",
-    "crumbs": [
-      "Home",
-      "[`FacsimiLab`] Project Template for Reproducible Research"
-    ]
-  },
-  {
-    "objectID": "readme.html#project-details",
-    "href": "readme.html#project-details",
-    "title": "[FacsimiLab] Project Template for Reproducible Research",
-    "section": "",
-    "text": "This is a datalad repository for the FacsimiLab project. Additional dataset information to go here.",
-    "crumbs": [
-      "Home",
-      "[`FacsimiLab`] Project Template for Reproducible Research"
     ]
   },
   {
@@ -94,75 +72,10 @@
     ]
   },
   {
-    "objectID": "licenses/readme.html",
-    "href": "licenses/readme.html",
-    "title": "Repository Licenses",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "FacsimiLab - Project Template for Datalad Datasets",
     "section": "",
-    "text": "The repository code, unless otherwise specified, is licensed under the MIT License.\nNote: This repository was generated using the FacsimiLab project template repository created by Pranav Mishra, which is licensed under the MIT License.\n\n\n\n\nMedia files, when individually and directly specified, are licensed and available for use under Creative Commons Attribution-ShareAlike 4.0 International CC-BY-4.0.\n\n\n\nThis repository uses code and/or files from other sources. You can find the licenses for each of those projects within the /licenses directory and from the Section 1.5 section below.\n\n\n\nAll other works in this repository are copyrighted without explicit useage / sharing permissions from the authors.\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nCitation Styles - CC BY-SA 3.0\n\n\n \n\n\n\n\nCreative Commons Attribution-ShareAlike 4.0 International\n\n\n \n\n\n\n\nFacsimiLab Template\n\n\n \n\n\n\n\nMIT License\n\n\n \n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "Licenses",
-      "Repository Licenses"
-    ]
-  },
-  {
-    "objectID": "licenses/readme.html#repository-code",
-    "href": "licenses/readme.html#repository-code",
-    "title": "Repository Licenses",
-    "section": "",
-    "text": "The repository code, unless otherwise specified, is licensed under the MIT License.\nNote: This repository was generated using the FacsimiLab project template repository created by Pranav Mishra, which is licensed under the MIT License.",
-    "crumbs": [
-      "Home",
-      "Licenses",
-      "Repository Licenses"
-    ]
-  },
-  {
-    "objectID": "licenses/readme.html#repository-media",
-    "href": "licenses/readme.html#repository-media",
-    "title": "Repository Licenses",
-    "section": "",
-    "text": "Media files, when individually and directly specified, are licensed and available for use under Creative Commons Attribution-ShareAlike 4.0 International CC-BY-4.0.",
-    "crumbs": [
-      "Home",
-      "Licenses",
-      "Repository Licenses"
-    ]
-  },
-  {
-    "objectID": "licenses/readme.html#external-projects",
-    "href": "licenses/readme.html#external-projects",
-    "title": "Repository Licenses",
-    "section": "",
-    "text": "This repository uses code and/or files from other sources. You can find the licenses for each of those projects within the /licenses directory and from the Section 1.5 section below.",
-    "crumbs": [
-      "Home",
-      "Licenses",
-      "Repository Licenses"
-    ]
-  },
-  {
-    "objectID": "licenses/readme.html#default-copyright",
-    "href": "licenses/readme.html#default-copyright",
-    "title": "Repository Licenses",
-    "section": "",
-    "text": "All other works in this repository are copyrighted without explicit useage / sharing permissions from the authors.",
-    "crumbs": [
-      "Home",
-      "Licenses",
-      "Repository Licenses"
-    ]
-  },
-  {
-    "objectID": "licenses/readme.html#sec-licenses-list",
-    "href": "licenses/readme.html#sec-licenses-list",
-    "title": "Repository Licenses",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nCitation Styles - CC BY-SA 3.0\n\n\n \n\n\n\n\nCreative Commons Attribution-ShareAlike 4.0 International\n\n\n \n\n\n\n\nFacsimiLab Template\n\n\n \n\n\n\n\nMIT License\n\n\n \n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "Licenses",
-      "Repository Licenses"
-    ]
+    "text": "Code\nwith open(\"readme.md\", \"r\") as file:\n    markdown_content = file.read()"
   }
 ]
