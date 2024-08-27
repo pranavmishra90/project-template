@@ -1,8 +1,12 @@
 [datalad "dataset"]
-	id = f9026e7b-8c71-4092-ba3a-72408294523c
+  id = f9026e7b-8c71-4092-ba3a-72408294523c
 
 [datalad "ui"]
-        suppress-similar-results = off
+  suppress-similar-results = off
+  progressbar=tqdm
+
+[datalad "save"]
+  no-message=interactive
 
 [push]
-        autoSetupRemote = true
+  autoSetupRemote = true

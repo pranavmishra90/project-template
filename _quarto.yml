@@ -15,7 +15,7 @@ project:
         timeout: 300
 
 website:
-    title: "Facsimilab - Template for Datalad Datasets"
+    title: "FacsimiLab - Project Template for Datalad Datasets"
     navbar:
         search: true
         left:
@@ -28,10 +28,10 @@ website:
         style: "docked"
         contents: auto
     reader-mode: true
-    repo-url: https://github.com/FacsimiLab/datalad-dataset-template
+    repo-url: https://github.com/FacsimiLab/project-template
     repo-actions: [issue, edit]
     repo-link-target: "_blank"
-    page-footer: "Copyright 2024: Pranav Mishra"
+    page-footer: "Copyright 2024: Pranav Kumar Mishra"
 
 bibliography:
     - ./notebook/references.bib
