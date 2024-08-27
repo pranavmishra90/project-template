@@ -37,11 +37,14 @@ metadata/objects/** annex.largefiles=((largerthan=0))
 
 # Raw Data
 /data/raw/**/*.md annex.largefiles=nothing
-/data/raw/**/*.csv annex.largefiles=nothing
+/data/raw/**/*.csv annex.largefiles=((largerthan=50MB))
 /data/raw annex.largefiles=((largerthan=0))
 
 # Analyzed Data
-/data/analysis/**/*.csv annex.largefiles=((largerthan=50MB))
+/data/analysis/**/*.csv annex.largefiles=((largerthan=10MB))
+
+# Research Output Data
+/data/output annex.largefiles=((largerthan=10MB))
 
 # Data files types
 *.parquet annex.largefiles=((largerthan=0))
@@ -59,4 +62,3 @@ metadata/objects/** annex.largefiles=((largerthan=0))
 
 # All other binary files
 * annex.largefiles=((mimeencoding=binary)and(largerthan=10MB))
-**/.git* annex.largefiles=nothing
