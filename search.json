@@ -1,50 +1,14 @@
 [
   {
-    "objectID": "notebook/about.html",
-    "href": "notebook/about.html",
-    "title": "About",
+    "objectID": "docs/readme.html",
+    "href": "docs/readme.html",
+    "title": "Documentation",
     "section": "",
-    "text": "Code\nfrom datetime import datetime\n\nnow = datetime.now()\nformatted_date = now.strftime(\"%m-%d-%Y at %I:%M %p\")\nprint(f\"This file was last updated on {formatted_date}\")\n\n\nThis file was last updated on 09-02-2024 at 12:28 AM",
+    "text": "Documentation\nThis directory can provide documentation about the dataset, how to use it, what tools may be necessary to reproduce the project, etc.",
     "crumbs": [
       "Home",
-      "Notebook",
-      "About"
-    ]
-  },
-  {
-    "objectID": "licenses/citationstyles.html",
-    "href": "licenses/citationstyles.html",
-    "title": "Citation Styles - CC BY-SA 3.0",
-    "section": "",
-    "text": "Citation Styles - CC BY-SA 3.0\nThe American Medical Association (AMA) citation file found in /notebook/ama.csl is provided by https://citationstyles.org/ through the Creative Commons Attribution-ShareAlike 3.0 Unported License. The raw files are located in their GitHub repository: citation-style-language/styles",
-    "crumbs": [
-      "Home",
-      "Licenses",
-      "Citation Styles - CC BY-SA 3.0"
-    ]
-  },
-  {
-    "objectID": "licenses/MIT-license.html",
-    "href": "licenses/MIT-license.html",
-    "title": "MIT License",
-    "section": "",
-    "text": "MIT License\nCopyright (c) 2024 Pranav Kumar Mishra\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
-    "crumbs": [
-      "Home",
-      "Licenses",
-      "MIT License"
-    ]
-  },
-  {
-    "objectID": "licenses/FacsimiLab-Project-Template-Repository.html",
-    "href": "licenses/FacsimiLab-Project-Template-Repository.html",
-    "title": "FacsimiLab Template",
-    "section": "",
-    "text": "FacsimiLab Template\n\nMIT License\nCopyright (c) 2024 Pranav Kumar Mishra\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
-    "crumbs": [
-      "Home",
-      "Licenses",
-      "FacsimiLab Template"
+      "Docs",
+      "Documentation"
     ]
   },
   {
@@ -72,15 +36,27 @@
     ]
   },
   {
-    "objectID": "docs/readme.html",
-    "href": "docs/readme.html",
-    "title": "Documentation",
+    "objectID": "licenses/FacsimiLab-Project-Template-Repository.html",
+    "href": "licenses/FacsimiLab-Project-Template-Repository.html",
+    "title": "FacsimiLab Template",
     "section": "",
-    "text": "Documentation\nThis directory can provide documentation about the dataset, how to use it, what tools may be necessary to reproduce the project, etc.",
+    "text": "FacsimiLab Template\n\nMIT License\nCopyright (c) 2024 Pranav Kumar Mishra\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
     "crumbs": [
       "Home",
-      "Docs",
-      "Documentation"
+      "Licenses",
+      "FacsimiLab Template"
+    ]
+  },
+  {
+    "objectID": "notebook/about.html",
+    "href": "notebook/about.html",
+    "title": "About",
+    "section": "",
+    "text": "Code\nfrom datetime import datetime\n\nnow = datetime.now()\nformatted_date = now.strftime(\"%m-%d-%Y at %I:%M %p\")\nprint(f\"This file was last updated on {formatted_date}\")\n\n\nThis file was last updated on 02-09-2025 at 06:43 AM",
+    "crumbs": [
+      "Home",
+      "Notebook",
+      "About"
     ]
   },
   {
@@ -88,7 +64,7 @@
     "href": "index.html",
     "title": "[FacsimiLab] Project Template for Reproducible Research",
     "section": "",
-    "text": "This is a datalad repository for the FacsimiLab project. Additional dataset information to go here.\n\n\n\nDefault copyright\nAll research data in this repository, unless explicitly stated otherwise, is protected by copyright and does not include permissions for use or sharing from the author(s). This includes raw data, analysis / intermediate data, and research output data. Code, select source files, and specific research output may have other licenses. For more information, please consult the Licenses section.\nCopyright © 2024 Pranav Kumar Mishra\n\n This page was generated automatically from the repository readme.md on 2024-09-02 00:28:51.984879"
+    "text": "This is a datalad repository for the FacsimiLab project. Additional dataset information to go here.\n\n\n\nDefault copyright\nAll research data in this repository, unless explicitly stated otherwise, is protected by copyright and does not include permissions for use or sharing from the author(s). This includes raw data, analysis / intermediate data, and research output data. Code, select source files, and specific research output may have other licenses. For more information, please consult the Licenses section.\nCopyright © 2024 Pranav Kumar Mishra\n\n This page was generated automatically from the repository readme.md on 2025-02-09 06:43:29.386213"
   },
   {
     "objectID": "index.html#project-details",
@@ -102,6 +78,30 @@
     "href": "index.html#licensing",
     "title": "[FacsimiLab] Project Template for Reproducible Research",
     "section": "",
-    "text": "Default copyright\nAll research data in this repository, unless explicitly stated otherwise, is protected by copyright and does not include permissions for use or sharing from the author(s). This includes raw data, analysis / intermediate data, and research output data. Code, select source files, and specific research output may have other licenses. For more information, please consult the Licenses section.\nCopyright © 2024 Pranav Kumar Mishra\n\n This page was generated automatically from the repository readme.md on 2024-09-02 00:28:51.984879"
+    "text": "Default copyright\nAll research data in this repository, unless explicitly stated otherwise, is protected by copyright and does not include permissions for use or sharing from the author(s). This includes raw data, analysis / intermediate data, and research output data. Code, select source files, and specific research output may have other licenses. For more information, please consult the Licenses section.\nCopyright © 2024 Pranav Kumar Mishra\n\n This page was generated automatically from the repository readme.md on 2025-02-09 06:43:29.386213"
+  },
+  {
+    "objectID": "licenses/MIT-license.html",
+    "href": "licenses/MIT-license.html",
+    "title": "MIT License",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2024 Pranav Kumar Mishra\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "crumbs": [
+      "Home",
+      "Licenses",
+      "MIT License"
+    ]
+  },
+  {
+    "objectID": "licenses/citationstyles.html",
+    "href": "licenses/citationstyles.html",
+    "title": "Citation Styles - CC BY-SA 3.0",
+    "section": "",
+    "text": "Citation Styles - CC BY-SA 3.0\nThe American Medical Association (AMA) citation file found in /notebook/ama.csl is provided by https://citationstyles.org/ through the Creative Commons Attribution-ShareAlike 3.0 Unported License. The raw files are located in their GitHub repository: citation-style-language/styles",
+    "crumbs": [
+      "Home",
+      "Licenses",
+      "Citation Styles - CC BY-SA 3.0"
+    ]
   }
 ]
